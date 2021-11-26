@@ -4,7 +4,7 @@ import CloudySky from "../ideas/CloudySky";
 
 export default function Starter() {
   return (
-    <StandardEnvironment>
+    <StandardEnvironment playerProps={{controls: {disableGyro: true}}}>
       <ambientLight />
       <group position={[0, 0, -4]}>
         <Floating>

@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>spacesvr project</title>
+        <title>adam's studio</title>
       </Head>
       <Component {...pageProps} />
     </>

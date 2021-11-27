@@ -6,7 +6,7 @@ import CloudySky from "../ideas/CloudySky";
 
 export default function Starter() {
   return (
-    <StandardEnvironment playerProps={{ pos: [0, 20, 20], controls: {disableGyro: true}}}>
+    <StandardEnvironment canvasProps={{dpr: typeof window !== "undefined" ? window.devicePixelRatio : 0}} playerProps={{ pos: [0, 20, 20], controls: {disableGyro: true}}}>
       <ambientLight />
       <group position={[10, 1, 0]}>
         <Arrow dark={true} />

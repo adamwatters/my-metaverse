@@ -21,7 +21,7 @@ export default function Starter() {
         />
         <Arrow dark={true} />
       </group>
-      <group position={[0, 3, 0]}>
+      <group position={[0, 1, 0]}>
           <Suspense fallback={null}>
             <Phone
               offsetAngle={0}

@@ -75,7 +75,7 @@ export default function Model({ ...props }) {
           ref={innerGroup}
           position={[0, 0, props.offsetVertical]}
           rotation={[Math.PI / 2, Math.PI + (props.offsetAngle || 0), 0]}
-          scale={0.04}
+          scale={0.01}
         >
           <group scale={100}>
             <mesh
